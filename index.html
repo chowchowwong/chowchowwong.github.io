@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>COMP3414 Website</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+
+<!-- MENU -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO -->
+               <a href="index.html" class="navbar-brand">Duckietown Project</a>
+          </div>
+
+          <!-- MENU LINKS -->
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">About</a></li>
+                    <li><a href="#project" class="smoothScroll">Result</a></li>  
+                    <li><a href="#team" class="smoothScroll">Team</a></li>
+               </ul>
+          </div>
+
+     </div>
+</div>
+
+
+<!-- HOME -->
+<section id="home" class="parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-8 col-sm-12">
+                    <div class="home-text">
+                         <h1 style="font-weight: 500;">Duckietown 2020</h1>
+                         <p>Host department: Department of Computer Science</p>
+                         <p>Project supervisor: Dr.Y.K.Choi (Department of Computer Science)</p>
+                         <ul class="section-btn">
+                              <a href="#about" class="smoothScroll"><span data-hover="Understand More...">Understand More...</span></a>
+                         </ul>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+     <!-- Video -->
+     <video controls autoplay loop muted>
+          <source src="videos/3414_website_short_clip.mp4">
+     </video>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="parallax-section">
+     <div class="container">
+          <div class="row">
+               <div class="section-title">
+                    <h1>About</h1>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="background-info">
+                         <h3>Project Background</h3>
+                         <p>Duckietown Project is an interdisciplinary robotics project that is designed for experiential learning, while applying technical knowledge in A.I. and robotics. In this project, students will learn knowledge about convolutional neural network, computer vision, artificial intelligence and robotics and implement AI algorithms to work on auto-driving vehicles running in a real miniature environment.</p>
+                         <p></p>
+                         <p>Team member: Wong Lok Hei, BEng(CompSc)</p>
+                    </div>
+                    <div class="objective-info">
+                         <h3>Project Objective</h3>
+                         <p>The project aimed to give insights to students about the development framework for autonomous vehicles. The goal in the project is to make the autonomous vehicle able to achieve the lane following task. </p>
+                         <p>1.     To detect lines and their color along the lane with the information received by the camera.</p>
+                         <p>2.	To measure and estimate the pose of the autonomous vehicle.</p>
+                         <p>3.	To plan the path and control the speed of the autonomous vehicle</p>
+                    </div>
+                    <div class="technology-info">
+                         <h3>Technology</h3>
+                         <img src="images/project-image1.jpg" alt="ROS Explaination"  height="500" class="center">
+                         <p>Robot Operating System (ROS) is used for the implementation of the robot framework. ROS implements several styles of communication between different processes (named as nodes), synchronous communication over service, asynchronous streaming of message over the topic, and storing data in a parameter server. ROS offered a distributed framework that allows nodes to be individually designed.In this project, Python is chosen as the programming language in the development of each node. </p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Result -->
+<section id="project" class="parallax-section" >
+     <div class="container">
+          <div class="row">
+          <!-- SECTION TITLE -->
+               <div class="section-title">
+                    <h1>Result</h1>
+               </div>
+               <p>The team start working since the second semester of 2020. The team held regular meetings and pay a lot effort in self-learning and preparation of the AI-DO.</p>
+               <p>Please enjoy the video below to know more about the Duckietown Project</p>
+               <video controls width="1080" height="600" class="shortclip">
+                    <source src="videos/3414_website_longer_clip.mp4">
+               </video>
+               <p>This is the first time for the HKU Duckietown Team using the technique of ROS to implement the system of the Bot. The team make a great success with the resuly as shown below.</p>
+               <img src="images/project-image4.jpg" alt="Team Result"  width="500" height="300" class="center">
+               <img src="images/project-image2.jpg" alt="Team Result"  width="800" height="250" class="center">
+               <p>With ROS, we can have a more robust design of the robot. There are much more challenges can be tried in the future. The current implementation of ROS in the Duckiebot can serve as a good prototype for HKU students further learning in the future. </p>
+               <div class="container1">
+                    <a href="https://docs.duckietown.org/daffy/downloads/AIDO/docs-AIDO/builds/396/AIDO/out/aido_rules.html">
+                         <img src="images/project-image3.jpg" alt="Other Challenges"  height="400" class="image">
+                         <div class="middle">
+                              <div class="text">More details...</div>
+                         </div>
+                    </a>
+               </div>
+          </div>
+     </div>
+</section>
+
+
+<!-- Team -->
+<section id="team" class="parallax-section" >
+     <div class="container">
+          <div class="row">
+          <!-- SECTION TITLE -->
+               <div class="section-title">
+                    <h1>Team</h1>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="team-info">
+                         <h3>Wong Lok Hei (BEng(CompSc), IV)</h3>
+                         <p>Joining the HKU Duckietown Team gives me an unique experience. In the preparation period, I have improved my time management skill. I have become more self-motivated in learning new technology. The project gives me a great chance in applying my knowledge in Robtics and Computer Vision. It is definitely a valubale experience in joining the team, it futher consolidates my passion in autonomous vehicle.</p>
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>
+<!-- FOOTER -->
+<footer>
+     <div class="row">
+          <div class="clearfix"></div>
+
+          <div class="col-md-12 col-sm-12">
+               <div class="copyright-text">
+                    <p>Copyright © 2020 Wong Lok Hei</p>
+                    <img src="images/hku_logo.png" alt="HKU logo" height="70" class="pl-3">
+               </div>
+          </div>
+          
+     </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
+<style>
+     .container1 {
+     position: relative;
+     }
+
+     .image {
+     opacity: 1;
+     height: auto;
+     transition: .5s ease;
+     backface-visibility: hidden;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     }
+
+     .middle {
+     transition: .5s ease;
+     opacity: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     text-align: center;
+     }
+
+     .container1:hover .image {
+     opacity: 0.3;
+     }
+
+     .container1:hover .middle {
+     opacity: 1;
+     }
+
+     .text {
+     background-color: #4CAF50;
+     color: white;
+     font-size: 16px;
+     padding: 16px 32px;
+     }
+     .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .shortclip{
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .section-title{
+          text-align:center
+     }
+     .background-info{
+          text-align:left
+     }
+     .objective-info{
+          text-align:left
+     }
+     .technology-info{
+          text-align:left
+     }
+     .copyright-text{
+          text-align:center
+     }
+     .team-info{
+          text-align:left
+     }
+</style>
